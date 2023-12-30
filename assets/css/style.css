@@ -185,7 +185,7 @@ img {
 @media (max-width: 440px) {
   .header {
     padding-top: 1%;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
     background:
 	linear-gradient(-25deg, transparent 0%, transparent 75%, #ffffff 75%, #ffffff 100%),
 	linear-gradient(25deg, transparent 0%, transparent 75%, #ffffff 75%, #ffffff 100%);
