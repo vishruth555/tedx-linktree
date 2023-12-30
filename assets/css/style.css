@@ -1,7 +1,20 @@
 body {
-  background: linear-gradient(-45deg, #860202,#be0303,#c93a3a,#b46060);
-  background-size: 400% 400%;
-  animation: gradient 10s ease infinite;
+  /* background-size: 400% 400%; */
+  /* background: linear-gradient(-45deg, #860202,#be0303,#c93a3a,#b46060); */
+  /* animation: gradient 10s ease infinite; */
+  height: 100vh;
+  background: linear-gradient(to bottom,#EB0028,#000000);
+  background-size: cover;
+  animation: pulsate 5s infinite alternate;
+}
+
+@keyframes pulsate {
+  0% {
+    background-size: 100% 100%;
+  }
+  100% {
+    background-size: 120% 120%;
+  }
 }
 
 @keyframes gradient {
@@ -22,6 +35,12 @@ img {
   border-radius: 5px;
 }
 
+.header {
+  padding-top: 5px;
+  margin-bottom: 3%;
+	
+}
+
 .profile-picture {
   display: block;
   margin-left: auto;
@@ -30,7 +49,7 @@ img {
   height: auto;
   max-width: 300px;
   box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
-  background-color: rgba(122, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .black-text {
@@ -114,8 +133,16 @@ img {
 .link-hide:hover {
   text-decoration: none;
 }
-
+@media (max-width: 1000px) {
+  .header {
+    margin-bottom: 10%;
+  }
+}
 @media (max-width: 548px) {
+  .header {
+    padding-top: 10%;
+    margin-bottom: 20%;
+  }
   .links {
     text-align: center;
     margin-top: 20px;
@@ -151,4 +178,22 @@ img {
   text-align: center;
   margin: 10px;
   margin-top: 50px;
+
+}
+
+
+@media (max-width: 440px) {
+  .header {
+    padding-top: 10%;
+    margin-bottom: 20%;
+    background:
+	linear-gradient(-25deg, transparent 0%, transparent 70%, #ffffff 70%, #ffffff 100%),
+	linear-gradient(25deg, transparent 0%, transparent 70%, #ffffff 70%, #ffffff 100%);
+	
+	
+	font-size:5em;
+  }
+  .profile-picture {
+    margin-top: 20%;
+  }
 }
