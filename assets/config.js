@@ -29,10 +29,15 @@ let config = {
       "URL": "https://www.instagram.com/tedxnhce?igsh=MWR1aGZsMGhzM3lhcw==",
       "icon_classes": "fab fa-instagram"
     },
+    // {
+    //   "Title": "LinkedIn",
+    //   "URL": "https://www.linkedin.com/showcase/tedxofficial/",
+    //   "icon_classes": "fab fa-linkedin"
+    // },
     {
-      "Title": "LinkedIn",
-      "URL": "https://www.linkedin.com/showcase/tedxofficial/",
-      "icon_classes": "fab fa-linkedin"
+      "Title": "Speakers",
+      "URL": "https://newhorizonindia.edu/extra-curricular/tedxnhce/talks/",
+      "icon_classes": "fas fa-microphone"
     },
     // {
     //   "Title": "Youtube",
